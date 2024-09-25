@@ -11745,3 +11745,8 @@ pre .code {
 .green{
   color: green;
 }
+
+.project-title{
+    font-size: 30px !important;
+    color : #b87333 !important;
+}
