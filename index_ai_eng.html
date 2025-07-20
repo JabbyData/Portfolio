@@ -513,7 +513,7 @@
         <section class="hero">
             <div class="container">
                 <h1>AI Engineer Specialist</h1>
-                <p>Transforming data into intelligent solutions</p>
+                <p>Transforming your data into intelligent value</p>
                 <div>
                     <a href="resume.pdf" class="btn" download>Download Resume</a>
                     <a href="#contact" class="btn btn-secondary">Get In Touch</a>
@@ -597,57 +597,140 @@
         <section id="projects" class="container">
             <h2 class="section-title">Projects</h2>
             <div class="project-item">
-                <h3>AI-Powered Chatbot</h3>
-                <p>Developed an intelligent customer service chatbot using transformer models and natural language understanding. Achieved 90% accuracy in intent recognition.</p>
-            </div>
-            <div class="project-item">
-                <h3>Predictive Analytics Platform</h3>
-                <p>Built a comprehensive analytics platform for business forecasting using time series analysis and ensemble methods. Deployed using Docker and Kubernetes.</p>
-            </div>
-            <div class="project-item">
-                <h3>Computer Vision Pipeline</h3>
-                <p>Created an automated image classification system for medical imaging, achieving state-of-the-art performance on benchmark datasets.</p>
+            <h3>AI-Powered Mail Filtering System</h3>
+            <p>TODO : AI filtering mail with LangChain</p>
+            <p><strong>Technologies:</strong> Python, LanChain</p>
+            <a href="https://github.com/JabbyData/AI-Mail-Filter" target="_blank" class="btn btn-secondary" style="margin-top: 1rem;">View on GitHub</a>
             </div>
         </section>
 
         <section id="skills" class="container">
             <h2 class="section-title">Skills</h2>
             <div class="skills-grid">
-                <div class="skill-category">
-                    <h3>Programming Languages</h3>
-                    <p>Python, R, SQL, JavaScript, C++</p>
-                </div>
-                <div class="skill-category">
-                    <h3>ML Frameworks</h3>
-                    <p>TensorFlow, PyTorch, Scikit-learn, Keras</p>
-                </div>
-                <div class="skill-category">
-                    <h3>Cloud Platforms</h3>
-                    <p>AWS, Google Cloud, Azure, Docker</p>
-                </div>
-                <div class="skill-category">
-                    <h3>Specializations</h3>
-                    <p>Deep Learning, NLP, Computer Vision, MLOps</p>
-                </div>
+            <div class="skill-category" data-skills='[]'>
+            <h3>Programming Languages</h3>
+            <ul class="skill-list">
+            <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" style="width: 50px; height: 50px; vertical-align: middle; margin-right: 30px;">Python</li>
+            <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL" style="width: 50px; height: 50px; vertical-align: middle; margin-right: 30px;">SQL</li>
+            <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" alt="Bash" style="width: 50px; height: 50px; vertical-align: middle; margin-right: 30px;">Bash</li>
+            </ul>
+            </div>
+            <div class="skill-category" data-skills='[]'>
+            <h3>ML Frameworks</h3>
+            <ul class="skill-list">
+            <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" alt="PyTorch" style="width: 50px; height: 50px; vertical-align: middle; margin-right: 30px;">PyTorch</li>
+            <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg" alt="Scikit-learn" style="width: 50px; height: 50px; vertical-align: middle; margin-right: 30px;">Scikit-learn</li>
+            <li><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="Hugging Face" style="width: 50px; height: 50px; vertical-align: middle; margin-right: 30px;">Hugging Face</li>
+            <li><img src="https://optuna.org/assets/img/optuna-logo.png" alt="Optuna" style="width: 50px; height: 50px; vertical-align: middle; margin-right: 30px;">Optuna</li>
+            </ul>
+            </div>
+            <div class="skill-category" data-skills='[]'>
+            <h3>Cloud & DevOps</h3>
+            <ul class="skill-list">
+            <li><img src="https://logos-world.net/wp-content/uploads/2022/11/Snowflake-Logo.png" alt="Snowflake" style="width: 50px; height: 50px; vertical-align: middle; margin-right: 30px;">Snowflake</li>
+            <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" alt="SQL Server" style="width: 50px; height: 50px; vertical-align: middle; margin-right: 30px;">SQL Server</li>
+            <li><img src="assets/imgs/informatica.png" alt="Informatica" style="width: 50px; height: 50px; vertical-align: middle; margin-right: 30px;">Informatica</li>
+            </ul>
+            </div>
+            <div class="skill-category" data-skills='[]'>
+            <h3>Tools & Platforms</h3>
+            <ul class="skill-list">
+            <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" style="width: 50px; height: 50px; vertical-align: middle; margin-right: 30px;">Git</li>
+            <li><img src="https://python.langchain.com/img/brand/wordmark.png" alt="LangChain" style="width: 50px; height: 50px; vertical-align: middle; margin-right: 30px;">LangChain</li>
+            <li><img src="assets/imgs/power_bi.png" alt="Power BI" style="width: 50px; height: 50px; vertical-align: middle; margin-right: 30px;">Power BI</li>
+            </ul>
+            </div>
             </div>
         </section>
+
+        <style>
+            .skills-grid {
+            display: flex;
+            flex-direction: row;
+            gap: 2rem;
+            justify-content: center;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            }
+
+            .skill-category {
+            flex: 1;
+            min-width: 250px;
+            max-width: 280px;
+            height: auto;
+            min-height: 200px;
+            overflow: visible;
+            transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+            cursor: pointer;
+            transform: translateY(0);
+            }
+
+            .skill-category h3 {
+            margin-bottom: 1rem;
+            transition: transform 0.3s ease;
+            }
+
+            .skill-list {
+            list-style: none;
+            padding: 0;
+            opacity: 1;
+            transform: translateY(0);
+            transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+            max-height: none;
+            }
+
+            .skill-list li {
+            padding: 0.6rem 0;
+            color: #b3d9ff;
+            font-weight: 500;
+            border-bottom: 1px solid rgba(0, 255, 255, 0.1);
+            transform: translateX(0);
+            transition: all 0.3s ease;
+            opacity: 1;
+            display: flex;
+            align-items: center;
+            }
+
+            .skill-category:hover {
+            transform: translateY(-5px);
+            }
+
+            .skill-category:hover h3 {
+            transform: scale(1.05);
+            }
+
+            .skill-category:hover .skill-list li {
+            transform: translateX(5px);
+            color: #00ffff;
+            }
+
+            .skill-list li img {
+            filter: brightness(1.2);
+            transition: filter 0.3s ease;
+            }
+
+            .skill-category:hover .skill-list li img {
+            filter: brightness(1.5);
+            }
+
+            /* Mobile responsiveness */
+            @media (max-width: 768px) {
+            .skills-grid {
+                flex-direction: column;
+            }
+            
+            .skill-category {
+                max-width: 100%;
+            }
+            }
+        </style>
 
         <section id="blog" class="container">
             <h2 class="section-title">Blog</h2>
             <div class="blog-posts">
                 <div class="blog-post">
-                    <h3>The Future of AI in Healthcare</h3>
-                    <p>Exploring how artificial intelligence is revolutionizing medical diagnosis and treatment...</p>
-                    <a href="#" class="btn">Read More</a>
-                </div>
-                <div class="blog-post">
-                    <h3>MLOps Best Practices</h3>
-                    <p>A comprehensive guide to implementing machine learning operations in production environments...</p>
-                    <a href="#" class="btn">Read More</a>
-                </div>
-                <div class="blog-post">
-                    <h3>Transformer Models Explained</h3>
-                    <p>Deep dive into the architecture and applications of transformer models in modern AI...</p>
+                    <h3>TODO : start posting blogs !</h3>
+                    <p>...</p>
                     <a href="#" class="btn">Read More</a>
                 </div>
             </div>
